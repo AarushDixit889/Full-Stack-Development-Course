@@ -1,0 +1,12 @@
+/* 
+selector{
+    ...properties:..values;
+}
+*/
+.division{
+    background-color: aqua;
+    color: white;
+}
+#first{
+    background-color: red;
+}
