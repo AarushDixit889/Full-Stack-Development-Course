@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+        }
+
+        *::selection {
+            color: white;
+            background-color: red;
+        }
+
+        body h1 {
+            text-align: center;
+            background-image: linear-gradient(to right bottom, red, white, green);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Assignments</h1>
+    <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;height:90vh;">
+        <details>
+            <summary>
+                <p style="display: inline;">What is margin?</p>
+            </summary>
+            <p>The margin is the part of box model.It declares the space of outer world</p>
+        </details>
+        <details>
+            <summary>
+                <p style="display: inline;">Distinguish between border box and content box.Show with examples.</p>
+            </summary>
+            <div style="display: flex;justify-content: center;">
+                <table border="1">
+                    <thead>
+                        <th>Border Box</th>
+                        <th>Content Box</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Border box is mainly focuses on width and height </td>
+                            <td>Content box is mainly focuses on contents width and height </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Example:
+                                <div
+                                    style="box-sizing: border-box;width: 600px;height: 50px;border:1px solid red;padding:5px">
+                                    In this div I have set its box sizing to border box.I have set its width to 600px
+                                    and height to 50px.And little bit of border and padding.
+                                </div>
+                            </td>
+                            <td>
+                                Example:
+                                <div
+                                    style="box-sizing: content-box;width: 600px;height: 50px;border:1px solid red;padding:5px">
+                                    In this div I have set its box sizing to content box.I have set its width to 600px
+                                    and height to 50px.And little bit of border and padding.
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </details>
+        <details>
+            <summary>What title tags define?</summary>
+            <code>
+                    &lt;title&gt;Title&lt;/title&gt; it defines upper title of the webpage.
+                </code>
+        </details>
+        <details>
+            <summary>What is HTML?</summary>
+            <p>A Markup Language for creating structure</p>
+        </details>
+        <details>
+            <summary>What is CSS?</summary>
+            <p>A markup language used to design html page</p>
+        </details>
+        <details>
+            <summary>What is full form of HTML?</summary>
+            <p>Hyper Text Markup Language</p>
+        </details>
+        <details>
+            <summary>What is full form of CSS?</summary>
+            <p>Cascading style sheet</p>
+        </details>
+    </div>
+</body>
+</html>

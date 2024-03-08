@@ -1,0 +1,9 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* Padding - The space between content and border is known as padding */
+div{
+    padding: 5px 10px 15px 20px;
+}
