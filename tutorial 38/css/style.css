@@ -1,0 +1,44 @@
+/* Base rule */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:"Urbanist",cursive;
+    font-weight: 500;
+}
+
+/* layout */
+nav{
+    display:flex;
+    justify-content: space-between;
+    & ul{
+        list-style-type: none;
+        display:flex;
+        height:100%;
+        align-items:center;
+        & li{
+            margin-right:1rem;
+            & a{
+                text-decoration:none;
+                position:relative;
+                &:after{
+                    content:"";
+                    width:0%;
+                    border-bottom:1px solid #4afeff;
+                    position:absolute;
+                    left:0;
+                    top:100%;
+                    transition:all 1s linear;                ;
+                    -webkit-transition:all 1s linear                ;
+                    -moz-transition:all 1s linear                ;
+                    -ms-transition:all 1s linear                ;
+                    -o-transition:all 1s linear                ;
+}
+                &:hover:after{
+                    width:100%;
+                }
+            }
+        }
+    }
+}

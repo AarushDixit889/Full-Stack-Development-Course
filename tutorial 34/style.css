@@ -1,0 +1,18 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+div{
+    height:100vh;
+    
+    background-image: linear-gradient(yellow,green,red,pink);
+}
+body div:nth-child(1){
+    position: relative;
+}
+body div button{
+    /* Code here */
+    position:fixed;
+    top:10px;
+}

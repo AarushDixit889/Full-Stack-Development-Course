@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 37</title>
+    <link rel="stylesheet" href="prism.css">
+    <style>
+        :root{
+            --btn-color:red;
+        }
+        button{
+            transition:all 2s linear;
+            animation-name: animation1;
+            animation-duration:3s;
+            animation-iteration-count: infinite;
+        }
+        button:hover{
+            color:var(--btn-color);
+        }
+        @keyframes animation1{
+            0%{color:red}
+            50%{color:purple}
+            100%{color:black;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Selectors</h1>
+    <details>
+        <summary>Descendant selector</summary>
+        This selector refers to inner element.For example-
+        <br>
+
+        <code class="language-html">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html lang="en"&gt;<br>
+                &lt;head&gt;<br>
+                    &lt;meta charset="UTF-8"&gt;<br>
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                    &lt;link rel="stylesheet" href="style.css"&gt;<br>
+                    &lt;title&gt;Descendant selector&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                    &lt;div&gt;<br>
+                        &lt;h1&gt;Change the color of this heading&lt;/h1&gt;<br>
+                    &lt;/div&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+        </code>
+        <code class="language-css">
+            div h1{
+                color:red;
+            }
+        </code>
+    </details>
+    <details>
+        <summary>Universal selector</summary>
+        It selects all the elements
+    </details>
+    <details>
+        <summary>Grouping selector</summary>
+        It can select multiple items by ones like h1,h2,h3,h4{code}
+    </details>
+    <button>Hover me</button>
+    <script src="prism.js"></script>
+</body>
+</html>

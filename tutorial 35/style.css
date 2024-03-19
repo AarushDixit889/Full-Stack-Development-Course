@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.parent-div{
+    display:flex;
+    flex-direction:column;
+    & .child-div1{
+        background-color:brown;
+        width:calc(100vw - 60vw);
+    }
+    & .child-div2{
+        background-color:red;
+        width:60vw;
+    }
+}
