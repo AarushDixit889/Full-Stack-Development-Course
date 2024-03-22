@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 contenteditable="true">Calculator</h1>
+    <div class="calculator">
+        <input type="text" id="equation" placeholder="Enter the equation here">
+        <div class="buttons">
+            <div class="operands">
+                <button class="divide" onclick="button('/')">/</button>
+                <button class="multiply" onclick="button('*')">*</button>
+                <button class="subtract" onclick="button('-')">-</button>
+                <button class="plus" onclick="button('+')">+</button>
+                <button class="equate" onclick="equate()">=</button>
+            </div>
+            <div class="buttons-calculator">
+                <button id="button-7" onclick="button('7')">7</button>
+                <button id="button-8" onclick="button('8')">8</button>
+                <button id="button-9" onclick="button('9')">9</button>
+                <button id="button-4" onclick="button('4')">4</button>
+                <button id="button-5" onclick="button('5')">5</button>
+                <button id="button-6" onclick="button('6')">6</button>
+                <button id="button-1" onclick="button('1')">1</button>
+                <button id="button-2" onclick="button('2')">2</button>
+                <button id="button-3" onclick="button('3')">3</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
